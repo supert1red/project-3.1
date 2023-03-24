@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/blue_background_pic.jpeg);
+}
+#container {
+	width: 1280px;
+	height: auto;
+	background-color: white;
+	margin: auto; 
+	
+}
+/*float the Aside so it displays next to Main*/
+aside {
+    width: 150px;
+    height: 1600px;
+    float: left;
+    background-color: #9DB5D0;
+}
+header {
+    width: 1280px;
+    height: 250px;
+    background-image: url(../Images/my_header.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	margin: none;
+}
+/*Float the Main so it shows up next to the aside. Reduce width by 150px so they both line up with the header*/
+main {
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 1061px;
+    height: auto;
+    background-color: #FFFFFF;
+}
+h1  {
+    color: #530B7C;
+    font-family: "politica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+}
+p{ 
+
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3 {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Clear the float so the footer shows up in the right place again*/
+footer {
+    width: 1280px;
+    height: 50px;
+    clear: both;
+    background-color: #93A6BB;
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: auto;
+}
+.floatLeft{
+	float: left	
+}
+a{ 
+font-color: #530B7C;
+	
+}
+
+article {
+    margin-bottom: 30px;
+}
+nav {
+    width: 1280px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 60px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+    margin-top: 5px;
+}
+#container nav ul{
+	margin: auto;
+	width: 565px;
+}
+	
+a:link {
+    color: #5D758F;
+	padding: 10px;
+    text-decoration: none;
+}
+a:visited {
+    color: #4A3D95;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+	background-color: #5D758F;
+	padding: 10px;
+	border-radius: 20px;
+}
+a:active {
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+}
+
+.submit_btm {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #AEC9E7;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.submit_btm:hover {
+    -webkit-box-shadow: 4px 4px 35px 1px #EBC7FF;
+    box-shadow: 4px 4px 35px 1px #EBC7FF;
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+.cclicense {
+	width: 500px;
+	height: 20px;
+	clear: both;
+	padding: 50px 0px 0px 0px;
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
+
+
+
+/*Rules the page will follow for Tablet-sized devices*/
+@media (max-width: 1024px){
+	#container{ 
+	width: 768px;
+	}
+	header{
+	width: 768px;
+}	
+	nav{ 
+	width:768px;
+	}
+	main{ 
+	width:575px;
+	}
+	footer{ 
+	width: 768px;
+	}
+	.column{ 
+	margin: 0px 10px 0px 25px
+	}
+}
+
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+		#container{ 
+	width: 300px;
+	}
+	header{
+	width: 300px;
+	background-image: url("../Images/header300px.png")
+}	
+	nav{ 
+		width:300px;
+		height: 200px;
+		position: static;
+	}
+	main{ 
+		width: 250px;
+	}
+	footer{ 
+		width: 300px;
+	}
+	.column{ 
+		margin: 0px 10px 0px 15px
+	}
+	aside{ 
+		display: none;
+	}
+	
+	#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+	.cclicense{ 
+	width: 250px;
+	height: 250px;
+	} 
+	video{ 
+	width: 250px;
+	height:250px;
+	}
+}

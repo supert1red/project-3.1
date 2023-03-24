@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/llb1ucu.css">
+<link rel="stylesheet" href="https://use.typekit.net/llb1ucu.css">
+<link rel="stylesheet" href="https://use.typekit.net/llb1ucu.css">
+<!-- TemplateBeginEditable name="head" -->
+
+	<style type="text/css">
+
+	</style>
+
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+		<li><a href="../pages/about.html">About</a></li>
+		<li><a href="../pages/blog.html">blog</a></li>
+		<li><a href="../pages/gallery.html">Gallery</a></li>
+		<li><a href="../pages/contact.html">Contact</a></li>
+		
+	</ul>
+	</nav>
+  <!--Begin Floated Elements-->
+  <aside><h3>I'm a lover of cats, animated shows, corcheting, and I have around negative 3-4 vision.</h3>
+	<h3>Join me as I attempt to make up all my adobe work from missing school. </h3>
+    <h3>by Cassandra P.</h3></aside>
+  <!-- TemplateBeginEditable name="main-content" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+  <!-- TemplateEndEditable -->  <!--End Floated Elements-->
+  <footer></footer>
+</div>
+</body>
+</html>
